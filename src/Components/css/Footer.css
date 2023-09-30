@@ -1,0 +1,140 @@
+footer {
+  background: #121559;
+  width: 100%;
+  color: #fff;
+  padding: 2em;
+  
+}
+
+
+.footer-content {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.2rem;
+}
+
+.footer-content p {
+  max-width: auto;
+  margin: 10px auto;
+  line-height: 23px;
+  font-size: 15px;
+}
+
+.footer-content p a:hover {
+  color: #1dd1a1;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5em 0 1em 0;
+}
+
+.socials li {
+  margin: 0 5px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i {
+  font-size: 1.3rem;
+  padding: 0 1em;
+}
+
+.socials a:hover {
+  color: aquamarine;
+}
+
+.footer-link ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.footer-link ul li {
+  margin: 0.5em;
+}
+
+.footer-link ul li a {
+  color: #b3b5e4;
+  margin: 0;
+  padding: 0 2em;
+  font-size: small;
+  padding: .5em .5em;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+@media (max-width: 2000px) {
+  .wrapper .box {
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  }
+}
+
+/* Set initial state of card-down to be hidden */
+.socials{
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.copy-rights{
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.footer-link{
+
+  opacity: 0;
+  transform: translateY(100%);
+
+}
+
+/* Animate the card-down element when it becomes visible */
+.socials.animated{
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 1s ease-in-out .4s;
+}
+
+.footer-link.animated{
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all 1.5s ease-in-out .4s;
+}
+.copy-rights.animated{
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all 2s ease-in-out .3s;
+}
+
+
+
+
+
+@media (max-width: 702px) {
+  .wrapper .box {
+    width: 100%;
+  }
+  .footer-link ul {
+    flex-direction: column;
+  }
+}

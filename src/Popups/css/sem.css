@@ -1,0 +1,34 @@
+.pop .link{
+   text-decoration: none;
+    color:white;
+    font-size: large;
+    background: linear-gradient(to right top, #2c2858, #282456, #242053, #201c51, #1c184e, #1f1b4f, #221d50, #252051, #2f2b56, #39355a, #43405e, #4d4b62);
+}
+
+.pop .link:hover{
+    transform: scale(.8);
+    transition: all 0.1s ease 0.0s;
+
+}
+.pop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    row-gap: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #2c2858, #2c2759, #2b275a, #2b265b, #2a255c, #29245b, #28235b, #27225a, #262158, #241f56, #231e55, #211d53);
+}
+
+
+
+
+
+
+.overlay-hi {
+    background-color: rgba(0, 0, 0, 1);
+}

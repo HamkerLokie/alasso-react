@@ -1,0 +1,30 @@
+.form-cont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .6em;
+    width: 100%;
+}
+
+
+form button{
+    width: 20%;
+    margin-left: 2.9%;
+    border-radius: 0;
+}
+
+
+.form-cont input{
+    border: none;
+    padding: 9px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 150%;
+}

@@ -1,0 +1,51 @@
+.week {
+    margin: 20px 0;
+  }
+  
+  .week h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .week ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .week li {
+    margin: 10px 0;
+  }
+  
+  .week li label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .week li input[type="text"], .week li textarea {
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .week li textarea {
+    height: 100px;
+  }
+  
+  .week li button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .week li button:hover {
+    background-color: #0069d9;
+  }
+  

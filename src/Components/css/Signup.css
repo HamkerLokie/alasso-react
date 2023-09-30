@@ -1,0 +1,107 @@
+.box-cont{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 30%;
+    margin-bottom: 4%;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    border-radius: 9px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.left h3{
+    font-size: 2.5em;
+    padding:2px;
+    align-self: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5%;
+    
+}
+
+.left form{
+    display: flex;
+    flex-direction: column;
+}
+
+.left form input{
+    margin-bottom: 3%;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.left form div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.left form div a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.left form div a:hover{
+    color: blue ;
+}
+
+.left form .bbtn{
+    padding: 8px;
+    width: 60%;
+    align-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.left .yet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.yet button {
+    padding: 6px;
+    width: 50%;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.cred{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.right img{
+    width: 70%;
+    border: none;
+}
+
+@media screen and (max-width:768px) {
+    .left{
+        width: 100%;
+    }
+
+    .left form{
+        width: 100%;
+    }
+}
+

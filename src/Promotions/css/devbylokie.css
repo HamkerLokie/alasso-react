@@ -1,0 +1,115 @@
+.promotion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: black;
+    color: white;
+    padding: .6em .3em;
+    font-family: 'Tilt Neon';
+
+
+}
+.promotion p{
+    color: black;
+    padding: .6em .5em;
+    background: transparent;
+    border-radius: 150px;
+    box-shadow: 120px 80px 40px 20px #0ff;
+    box-shadow:
+    inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff; 
+
+   
+}
+.promotion img{
+    width: 50%;
+    box-shadow:
+    inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff; 
+}
+
+.promo-desc{
+    width: 60%;
+    text-align: center;
+    font-size: .9em;
+    
+   
+}
+.promo-desc span{
+    color: red;
+    text-transform: capitalize;
+}
+
+
+.promo-btn {
+    display: block;
+   
+    color: white;  
+    text-decoration: none;  
+    background-color: red;
+    font-family: 'Tilt Neon';
+    size: 1em;
+    text-align: center;
+    padding: .6em .7em;
+    width: 20%;
+    border-radius: 150px;
+}
+.promo-btn:hover{
+    transform: scale(1.14);
+    transition: all .4s ease-in-out;
+    color: white;
+}
+
+.btn-cl{
+    position: absolute;
+    background-color: red;
+    border-radius: 150px;
+    padding-top: 0;
+    padding-bottom: 0;
+    top: -2%;
+    right: -2%;
+    color: black;
+    font-family: 'Tilt Neon';
+    box-shadow:
+    inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 20px 0 300px #f0f,  /* inner left magenta broad */
+    inset -20px 0 300px #0ff, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #f0f,        /* outer left magenta */
+    10px 0 80px #0ff; 
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .promotion{
+        width: 100%;
+    }
+    .promo-desc{
+        font-size: .6em;
+        width: 100%;
+    }
+
+    .promo-btn{
+        width: 60%;
+    }
+  
+}

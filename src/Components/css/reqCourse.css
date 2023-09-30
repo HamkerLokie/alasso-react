@@ -1,0 +1,19 @@
+.req-form{
+    padding: 0em .9em;
+}
+.req-inp{
+    width: 100%;
+    margin: 2%;
+    padding: .2em .3em;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-sb{
+    margin: 1%;
+    width: 50%;
+    padding: .2em .6em;
+    background-color: white;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,354 @@
+#slide-home {
+  text-align: center;
+  margin: 20px auto;
+  width: auto;
+}
+
+.svg-donate {
+  width: 10%;
+  color: #254380;
+}
+
+
+.qa-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.qa-navbar .links {
+  width: 100%;
+  display: flex;
+  padding: .3em 0em;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.qa-navbar .hidden-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.qa-navbar:hover .hidden-nav {
+  max-height: 1000px;
+  transition: max-height .3s ease-in-out 0s;
+  width: 100%;
+  display: flex;
+  padding: .6em 0em;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 5;
+  position: absolute;
+  top: 100%;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  background: linear-gradient(270deg, #31628D 0.87%, #3A70A0 10.35%, #3A6FA0 20.55%, #468BB4 29.72%, #4A92B9 39.92%, #54A1CA 50.11%, #4E9ABF 54.19%, #4A93BA 60.82%, #478DB5 66.94%, #3A6FA0 76.62%, #3A70A0 82.74%, #32658F 97.02%);
+
+}
+
+.hidden-nav {
+  max-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.qa-navbar .links a,
+.hidden-links a {
+  font-family: 'Tilt Neon', cursive;
+}
+
+
+
+.card-down .top img {
+
+  filter: drop-shadow(5px 5px 10px #222);
+}
+
+.btn-carousel {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+.btn-carousel a {
+  font-family: 'Tilt Neon', cursive;
+}
+
+.qa-link {
+  color: white;
+  text-decoration: none;
+}
+
+.qa-link:hover {
+  color: black;
+}
+
+
+
+
+
+
+.card-down {
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 18px;
+  background-color: #ffffff;
+  margin: 20px;
+  height: 300px;
+  width: 20em;
+  margin-bottom: 5%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+@media screen and (max-width:350px) {
+  .card-down {
+    margin: 10px auto;
+  }
+}
+
+.heading {
+  position: absolute;
+  width: 1280px;
+  height: 116px;
+  left: 80px;
+  top: 675px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+
+.btn-carousel {
+  background: linear-gradient(180deg, #254380 0%, #0097d8 100%);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 42px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-carousel:hover {
+  transform: scale(1.01);
+  color: purple;
+  background: linear-gradient(180deg, #1779a7 0%, #0097d8 100%);
+}
+
+.home-img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 3/2;
+}
+
+.home-img:hover {
+  transform: scale(1.05);
+  transition: 0.5s all ease;
+}
+
+.container-slider {
+  margin-bottom: 5%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+
+
+.btn-start {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.btn-carousel a {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  display: block;
+  width: 100%;
+
+}
+
+.slide-home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* Progies */
+.overlay-m {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.popup {
+  position: absolute;
+  margin: auto auto;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.seen {
+  display: none;
+}
+
+.popup {
+  opacity: 0;
+}
+
+.popup.pop-ani {
+  opacity: 1;
+
+  transform: translateX(-500%, -50%);
+
+  transition: all 1.5s ease-in-out .2s;
+}
+
+
+.pro {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+
+}
+
+.cl {
+  position: relative;
+  top: 85%;
+  right: -78%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Set initial state of card-down to be hidden */
+
+.card-down {
+  opacity: 0;
+  transform: translateX(-400%);
+}
+
+.card-down.animated:nth-child(2) {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 1.2s ease-in-out .3s;
+}
+
+.card-down.animated:nth-child(6) {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 1.2s ease-in-out .3s;
+}
+
+.card-down.animated:nth-child(1) {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all .8s ease-in-out .1s;
+}
+
+.card-down.animated:nth-child(5) {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all .8s ease-in-out .1s;
+}
+
+.card-down.animated:nth-child(8) {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 2.1s ease-in-out .9s;
+}
+
+.card-down.animated:nth-child(4) {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 2.1s ease-in-out .9s;
+}
+
+.card-down.animated:nth-child(3) {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 1.8s ease-in-out .6s;
+}
+
+.card-down.animated:nth-child(7) {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 1.8s ease-in-out .6s;
+}
+
+
+/* Animate the card-down element when it becomes visible */
+/* .card-down.animated:nth-child(odd) {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 1.5s ease-in-out .3s;
+}
+ */
+
+
+
+.blur-load-home {
+  background-size: cover;
+  height: 90vh;
+  background-position: center;
+}
+
+.blur-load-home.loaded > .home-s {
+  opacity: 1;
+}
+
+.blur-load > .home-s {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+  .qa-navbar {
+    display: none;
+    width: 0;
+  }
+
+  .popup {
+    margin-top: -40%;
+    height: 10%;
+    width: 90%;
+  }
+
+}
+
+
+@media screen and (max-width: 450px) {
+
+  .pro {
+    font-size: .6em;
+    /* position: relative; */
+    /* top: 20%; */
+    width: 70%;
+  }
+
+}
